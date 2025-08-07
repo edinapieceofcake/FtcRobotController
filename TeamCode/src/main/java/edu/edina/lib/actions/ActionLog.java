@@ -12,7 +12,7 @@ public class ActionLog {
         str = new StringBuilder();
     }
 
-    public void println(String s, Object... args) {
+    public void writeln(String s, Object... args) {
         if (str.length() > 0)
             str.append('\n');
 
